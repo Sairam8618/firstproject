@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "enter the directory name"
+read name
+mkdir $name
+echo $name
+cd $name
+touch java
+touch python
+touch aws
+
